@@ -1,0 +1,17 @@
+.ant-picker {
+  background-color: #2e2e2d; /* ваш цвет фона */
+  color: #ffffff; /* текст белого цвета, чтобы он был виден на темном фоне */
+}
+
+.ant-picker-input > input {
+  background-color: #2e2e2d; /* цвет фона для входного поля */
+  color: #ffffff; /* цвет текста для входного поля */
+}
+
+.ant-picker-panel {
+  background-color: #2e2e2d; /* цвет фона для панели выбора даты */
+}
+
+.ant-picker-cell-inner {
+  color: #ffffff; /* цвет текста для дней */
+}

@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title {
+  @apply text-4xl font-normal font-mono uppercase mb-10;
+}
+.input {
+  @apply bg-[#2e2e2d] border-[1px] border-[#6b6b6b] w-[554px] h-[56px] rounded-md placeholder:text-[#656565] px-4  focus:border-none focus-visible:outline-none focus-visible:ring-0;
+}
+.input_short {
+  @apply bg-[#2e2e2d] border-[1px] border-[#6b6b6b] w-[272px] h-[56px] rounded-md placeholder:text-[#656565] px-4  focus:border-none focus-visible:outline-none focus-visible:ring-0 hover:bg-transparent   hover:outline-none hover:ring-0;
+}
+
+.button {
+  @apply w-[256px] h-[56px] bg-[#0B814F] rounded-md text-xl hover:bg-transparent hover:border-[1px] hover:border-[#0B814F] hover:text-[#0B814F] transition-all mt-10;
+}
+
+.auth_box {
+  @apply flex flex-col items-center z-10 gap-5;
+}
